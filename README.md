@@ -1,0 +1,1 @@
+<h1>Aplicativo feito em React Native que mostra os filmes que estão em cartaz nos cinemas do Brasil.</h1>
