@@ -27,7 +27,11 @@ export default function App() {
   }, []);
 
   return (
+    <>
+    {/* <View style={styles.header}></View> */}
+    
     <SafeAreaView style={styles.container}>
+      
 
       {loading &&
         <View style={styles.loadingArea}>
@@ -58,6 +62,7 @@ export default function App() {
         </>
       }
     </SafeAreaView>
+    </>
   );
 }
 
@@ -108,8 +113,14 @@ const styles = StyleSheet.create({
     color: '#fff',
     marginTop: 10,
     fontSize: 20
+  },
+
+  //header
+  header: {
+    backgroundColor: '#B21C23',
+    height: 140,
+    width: '100%'
   }
 
-
-
+  
 });
